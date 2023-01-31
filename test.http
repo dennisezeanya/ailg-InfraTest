@@ -1,0 +1,11 @@
+
+### Jumble API
+POST http://localhost:5000/jumble?api_key=test
+Content-Type: application/json
+
+{
+  "word": "Heloe"
+}
+
+### Audit API
+GET http://localhost:5000/requests?api_key=test
